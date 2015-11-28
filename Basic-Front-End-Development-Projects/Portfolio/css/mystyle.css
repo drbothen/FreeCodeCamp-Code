@@ -96,7 +96,7 @@ body {
     font-size: 8em;
 }
 
-#skills-header {
+/**#skills-header {
     font-weight: 300;
     font-size: 2.5em;
 }
@@ -109,8 +109,25 @@ body {
 #skills-div {
     margin-bottom: 7em;
     color: black;
-}
+}**/
 
 .img-center {
     margin: 0 auto;
 }
+
+.section-header {
+    font-weight: 300;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+.section-header-description {
+    margin-top: 1.5em;
+    font-size: 1.2em;
+}
+
+.section-header-div {
+    margin-bottom: 7em;
+    color: black;
+}
+
