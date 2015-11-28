@@ -5,6 +5,7 @@
 body {
     /**font-size: 62.5%;**/
     font-family: "lato", sans-serif;
+    padding-top: 50px;
 }
 
 .navbar-default {
@@ -36,8 +37,16 @@ body {
     border-top: 3px solid black;
 } **/
 
-.page-header {
+ .page-header {
     border-bottom: 2px outset #b3b3b3;
+}
+
+ #about, #portfolio {
+     background: #ededed;
+ }
+
+#intro-message-header {
+    /**font-size: 1.5em;**/
 }
 
 #intro-message-header, #intro-message-slogan {
@@ -87,3 +96,21 @@ body {
     font-size: 8em;
 }
 
+#skills-header {
+    font-weight: 300;
+    font-size: 2.5em;
+}
+
+#skills-description {
+    margin-top: 1.5em;
+    font-size: 1.2em;
+}
+
+#skills-div {
+    margin-bottom: 7em;
+    color: black;
+}
+
+.img-center {
+    margin: 0 auto;
+}
