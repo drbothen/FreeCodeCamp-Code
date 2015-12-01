@@ -8,6 +8,14 @@ body {
     padding-top: 50px;
 }
 
+.col-center {
+    float: none;
+    margin: 0 auto;
+    /* reset the text-align */
+    /* inline-block space fix */
+
+}
+
 .navbar-default {
 
 }
@@ -82,6 +90,8 @@ body {
     padding: 5% 5%;
 }
 
+/** Icon Styles **/
+
 .icon {
     color: black;
 }
@@ -96,24 +106,13 @@ body {
     font-size: 8em;
 }
 
-/**#skills-header {
-    font-weight: 300;
-    font-size: 2.5em;
-}
-
-#skills-description {
-    margin-top: 1.5em;
-    font-size: 1.2em;
-}
-
-#skills-div {
-    margin-bottom: 7em;
-    color: black;
-}**/
+/** IMG Styles **/
 
 .img-center {
     margin: 0 auto;
 }
+
+/** Section Styles **/
 
 .section-header {
     font-weight: 300;
@@ -131,3 +130,29 @@ body {
     color: black;
 }
 
+/** About Me Styles **/
+
+#text-aboutme {
+    font-size: 1.2em;
+    margin-bottom: 5%;
+}
+
+#portfolio-pic {
+    margin-bottom: 5%;
+}
+
+/** Portfolio Styles **/
+
+/** Contact Me **/
+
+.icon-contact-small {
+    font-size: 1.5em;
+}
+
+#section-contact {
+    margin-bottom: 3em;
+}
+
+#section-footer {
+    margin-top: 5em;
+}
