@@ -1,0 +1,71 @@
+/** Testing
+
+* {
+    border: 1px solid red !important;
+}
+
+**/
+
+/** Background **/
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1444837881208-4d46d5c1f127?crop=entropy&dpr=2&fit=crop&fm=jpg&h=900&ixjsv=2.0.0&ixlib=rb-0.3.5&q=50&w=1500");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+    margin-top: 5%;
+    padding-bottom: 3% ;
+    background: white;
+    max-width: 800px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+/** Main **/
+
+.col-center {
+    float: none;
+    margin: 0 auto;
+}
+
+#header {
+    font-family: 'Niconne', cursive;
+    font-size: 4em;
+}
+
+#description {
+    margin-top: 3%;
+    font-size: 1.2em;
+}
+
+/** Button **/
+
+#getQuoteBtn {
+    font-family: 'Niconne', cursive;
+    font-size: 1.5em;
+    margin: 5% 0 5% 0;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+/** Quote **/
+
+#quoteContainer {
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+    max-width: 700px;
+    padding: 2%;
+}
+
+.quote {
+    font-size: 1.5em;
+}
+
+.author {
+    font-size: 0.8em;
+    font-style: italic;
+}
+
